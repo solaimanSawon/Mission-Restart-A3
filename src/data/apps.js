@@ -226,5 +226,81 @@ export const apps = [
       { name: "4 star", count: 2650 },
       { name: "5 star", count: 3690 }
     ]
+  },
+  {
+    id: 13,
+    image: "/assets/demo-app (1).webp",
+    title: "DesignStudio Pro",
+    companyName: "Vertex Labs",
+    description:
+      "DesignStudio Pro offers intuitive vector design tools, asset libraries, and cloud collaboration perfect for UI/UX professionals.",
+    size: 91,
+    reviews: 19420,
+    ratingAvg: 4.8,
+    downloads: 1890000,
+    ratings: [
+      { name: "1 star", count: 180 },
+      { name: "2 star", count: 320 },
+      { name: "3 star", count: 1120 },
+      { name: "4 star", count: 6320 },
+      { name: "5 star", count: 11480 }
+    ]
+  },
+  {
+    id: 14,
+    image: "/assets/demo-app (2).webp",
+    title: "SecureVault",
+    companyName: "Cipher Works",
+    description:
+      "SecureVault protects sensitive documents with military-grade encryption, biometric access, and automatic cloud backup.",
+    size: 35,
+    reviews: 12650,
+    ratingAvg: 4.9,
+    downloads: 980000,
+    ratings: [
+      { name: "1 star", count: 90 },
+      { name: "2 star", count: 210 },
+      { name: "3 star", count: 680 },
+      { name: "4 star", count: 3840 },
+      { name: "5 star", count: 7830 }
+    ]
+  },
+  {
+    id: 15,
+    image: "/assets/demo-app (3).webp",
+    title: "LanguageMaster",
+    companyName: "LinguaFlow",
+    description:
+      "LanguageMaster teaches 50+ languages with AI conversation partners, immersive lessons, and progress tracking for fluency.",
+    size: 73,
+    reviews: 18903,
+    ratingAvg: 4.6,
+    downloads: 2680000,
+    ratings: [
+      { name: "1 star", count: 340 },
+      { name: "2 star", count: 620 },
+      { name: "3 star", count: 1600 },
+      { name: "4 star", count: 6200 },
+      { name: "5 star", count: 10143 }
+    ]
+  },
+  {
+    id: 16,
+    image: "/assets/demo-app (4).webp",
+    title: "PhotoLab",
+    companyName: "Capture Inc",
+    description:
+      "PhotoLab provides professional editing tools, AI filters, and instant sharing options for mobile photographers.",
+    size: 52,
+    reviews: 21847,
+    ratingAvg: 4.5,
+    downloads: 3240000,
+    ratings: [
+      { name: "1 star", count: 510 },
+      { name: "2 star", count: 840 },
+      { name: "3 star", count: 1980 },
+      { name: "4 star", count: 7320 },
+      { name: "5 star", count: 11197 }
+    ]
   }
 ];
