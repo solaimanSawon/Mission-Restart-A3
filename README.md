@@ -72,12 +72,17 @@ Vercel SPA reload fix is already included in `vercel.json`.
 
 Cloudflare route reload support is covered using `public/_redirects`.
 
+## Submission
+
+- **Live Link:** https://mission-restart-a3.netlify.app
+- **GitHub Repository:** https://github.com/solaimanSawon/Mission-Restart-A3
+
 ## Submission Checklist
 
-- Add your live link in this README.
-- Add your GitHub repository link in this README.
-- Make at least 5 meaningful commits.
-- Verify all routes work after reload on deployed site.
+- ✅ Live link added in this README.
+- ✅ GitHub repository link added in this README.
+- ⏳ Make at least 5 meaningful commits.
+- ✅ Verify all routes work after reload on deployed site.
 
 ## Assignment Notes
 
