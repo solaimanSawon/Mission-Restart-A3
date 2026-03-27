@@ -14,26 +14,26 @@ const averageRating =
 export default function HomePage() {
   return (
     <div className="page-stack">
-      <section className="hero-banner">
+      <section className="hero-banner" aria-label="Hero banner">
         <div className="hero-content">
           <h1>Find Powerful Apps That Fit Your Daily Flow</h1>
           <p>
             Hero IO helps you discover trusted apps, compare download strength, and install
             what matters faster.
           </p>
-          <div className="hero-actions">
-            <a href="https://www.apple.com/app-store/" target="_blank" rel="noreferrer">
+          <div className="hero-actions" role="group" aria-label="Download options">
+            <a href="https://www.apple.com/app-store/" target="_blank" rel="noreferrer" aria-label="Download from Apple App Store">
               App Store
             </a>
-            <a href="https://play.google.com/store" target="_blank" rel="noreferrer">
+            <a href="https://play.google.com/store" target="_blank" rel="noreferrer" aria-label="Download from Google Play Store">
               Play Store
             </a>
           </div>
         </div>
-        <img src="/assets/hero.png" alt="Hero app illustration" />
+        <img src="/assets/hero.png" alt="Hero IO app discovery platform illustration" />
       </section>
 
-      <section className="stats-grid">
+      <section className="stats-grid" aria-label="Platform statistics">
         <article className="stat-card">
           <h3>{apps.length}+</h3>
           <p>Curated Apps</p>

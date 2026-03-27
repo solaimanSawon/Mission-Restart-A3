@@ -33,7 +33,7 @@ export default function AppsPage() {
         <p>Browse all apps, search in real time, and sort by downloads.</p>
       </section>
 
-      <section className="apps-filter-row">
+      <section className="apps-filter-row" aria-label="App filtering and search">
         <p>
           Total apps: <strong>{filteredApps.length}</strong>
         </p>
@@ -48,7 +48,7 @@ export default function AppsPage() {
               });
             }}
             placeholder="Search app by title"
-            aria-label="Search app"
+            aria-label="Search app by title"
           />
           <select
             value={sortValue}
@@ -58,7 +58,7 @@ export default function AppsPage() {
                 setSortValue(value);
               });
             }}
-            aria-label="Sort by downloads"
+            aria-label="Sort apps by downloads"
           >
             <option value="none">Sort by downloads</option>
             <option value="high-low">High-Low</option>
